@@ -1,15 +1,22 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+
+
 #titulo{
+    text-shadow: 0px 0px 60px black;
+    color: white;
     font-family: "Lilita One", sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 200px;
     margin: 0;
     margin-top: 26px;
 }
 #titulo2{
     font-family: "Lilita One", sans-serif;
     text-align: center;
-    font-size: 26px;
-    color: rgb(0, 0, 0);
+    font-size: 52px;
+    color: rgb(255, 255, 255);
     transition: 1s;
 }
 #text1{
@@ -37,14 +44,88 @@
     margin-top: 80px;
     background-color: rgb(133, 133, 133);
     border-radius: 40px;
-    transition: 1s;
+    transition: 0.5s;
 }
+.item2{
+    width: 840px;
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 80px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.item3{
+    width: 840px;
+    height: 400px;
+    margin-left: 60px;
+    margin-top: 80px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 40px;
+    transition: 0.5s;
+}
+.item4{
+    width: 840px;
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 80px;
+    background-color: rgb(133, 133, 133);
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+
 .item1:hover{
-    transition: 1s;
+    transform: rotate(2deg) scale(1.2);
+    translate: 16px -16px;
+    transition: 0.5s;
     width: 840px;
     height: 400px;
     margin-left: 60px; 
     margin-top: 80px;
-    background-color: rgb(101, 151, 92);
+    background-color: rgb(151, 92, 143);
     border-radius: 40px;
+    box-shadow: 0px 0px 40px 0px;
+}
+.item2:hover{
+    transform: rotate(-2deg) scale(1.2);
+    translate: -16px -16px;
+    transition: 0.5;
+    width: 840px;
+    height: 400px;
+    margin-right: 60px; 
+    margin-top: 80px;
+    background-color: rgb(147, 82, 82);
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px 0px;
+}
+.item3:hover{
+    transform: rotate(2deg) scale(1.2);
+    translate: 16px -16px;
+    transition: 0.5;
+    width: 840px;
+    height: 400px;
+    margin-left: 60px; 
+    margin-top: 80px;
+    background-color: rgb(92, 135, 151);
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px 0px;
+}
+.item4:hover{
+    transform: rotate(-2deg) scale(1.2);
+    translate: -16px -16px;
+    transition: 0.5;
+    width: 840px;
+    height: 400px;
+    margin-right: 60px; 
+    margin-top: 80px;
+    background-color: rgb(88, 147, 82);
+    border-radius: 40px;
+    box-shadow: 0px 0px 40px 0px;
+}
+
+.contenedorp{
+    width: 900px;
+    margin: 0 auto;
+    padding: 20px;
 }
