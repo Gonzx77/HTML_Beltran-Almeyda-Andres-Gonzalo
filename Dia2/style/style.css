@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+.contenedorp{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 60px 10px black;
+}
+
+
+
+#title{
+    margin: 0;
+    font-size: 60px;
+    color: rgb(32, 32, 32);
+    font-family: "Anton", sans-serif;
+}
+#profile{
+    margin-top: 4%;
+    width: 30%;
+    transition: 0.2s;
+}
+#profile:hover{
+    transition: 0.2s;
+    transform: scale(1.05) translate(0px, -10px);
+    margin-top: 4%;
+    width: 30%;
+}
+#name{
+    margin: 0;
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+    font-family: "Mallanna", sans-serif;
+}
+
+
+
+#item{
+    margin: 0;
+    margin-top: 10%;
+    margin-left: 2%;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(32, 32, 32);
+    font-family: "Anton", sans-serif;
+}
+#text{
+    margin: 0;
+    margin-left: 4%;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+    font-family: "Mallanna", sans-serif;
+}
+#textjust{
+    text-align: justify;
+    margin: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 20px;
+    color: rgb(32, 32, 32);
+    font-family: "Mallanna", sans-serif;
+}
