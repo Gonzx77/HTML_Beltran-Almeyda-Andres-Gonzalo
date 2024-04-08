@@ -1,6 +1,5 @@
-.table{
-    border-collapse: collapse;
-    width: 100%;
+body{
+    background-color: rgb(32, 32, 32);
 }
 
 td, th{
@@ -8,6 +7,16 @@ td, th{
     text-align: left;
     padding: 8px;
 }
+td{
+    background-color: white;
+}
 th{
     background-color: rgb(255, 238, 141);
+}
+
+#title{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Orbitron", sans-serif;
 }
