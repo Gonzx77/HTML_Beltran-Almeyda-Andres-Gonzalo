@@ -8,10 +8,21 @@ td, th{
     padding: 8px;
 }
 td{
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: white;
+}
+td:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black;
     background-color: white;
 }
 th{
-    background-color: rgb(255, 238, 141);
+    animation-name: colores;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
 }
 
 #title{
@@ -19,4 +30,32 @@ th{
     text-align: center;
     font-size: 100px;
     font-family: "Orbitron", sans-serif;
+}
+
+
+@keyframes colores{
+    0%{
+        background-color: white;
+    }
+    10%{
+        background-color: rgb(255, 178, 178);
+    }
+    20%{
+        background-color: rgb(255, 250, 178);
+    }
+    30%{
+        background-color: rgb(196, 255, 178);
+    }
+    40%{
+        background-color: rgb(178, 255, 242);
+    }
+    50%{
+        background-color: rgb(179, 178, 255);
+    }
+    60%{
+        background-color: rgb(255, 178, 249);
+    }
+    100%{
+        background-color: white;
+    }
 }
