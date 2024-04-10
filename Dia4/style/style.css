@@ -81,6 +81,24 @@ body{
     padding-top: 2%;
 }
 
+#video11{
+    display: inline-block;
+    margin-left: 2%;
+    padding-top: 2%;
+}
+
+#video12{
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+#video13{
+    transform: translate(0, -260px);
+    margin-right: 2%;
+    float: right;
+}
+
 #img1{
     float: right;
     width: 400px;
