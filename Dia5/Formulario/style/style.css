@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(32, 32, 32);
+}
+#title{
+    padding-top: 4%;
+    margin: 0;
+    color: rgb(32, 32, 32);
+    font-size: 460%;
+    font-family: "Passion One", sans-serif;
+}
+#name{
+    margin: 0;
+    margin-bottom: 8%;
+    color: rgb(32, 32, 32);
+    font-size: 180%;
+    font-family: "Passion One", sans-serif;
+}
+
+.container{
+    border-radius: 2%;
+    padding-bottom: 10%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4%;
+    background-color: white;
+    width: 70%;
+}
+.formulario{
+    animation-name: sombra;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    padding-top: 6%;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    margin: 0 auto;
+}
+
+
+.input{
+    margin: 0;
+    margin-bottom: 12%;
+    max-width: 90%;
+    max-height: 100px;
+}
+
+.item{
+    transition: 0.5s;
+    margin: 0;
+    font-size: 220%;
+    color: rgb(255, 255, 255);
+    font-family: "Passion One", sans-serif;
+}
+.item:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    margin: 0;
+    font-size: 220%;
+    color: rgb(255, 255, 255);
+    font-family: "Passion One", sans-serif;
+}
+
+#guardarDatos{
+    border-radius: 20%;
+    padding: 4%;
+    animation-name: colores;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    background-color: white;
+    border: none;
+    margin-bottom: 8%;
+}
+
+
+@keyframes sombra{
+    0%{
+        box-shadow: 0px 0px 40px 12px rgb(255, 0, 0);
+        border-radius: 2% 12%;
+    }
+    25%{
+        box-shadow: 0px 0px 40px 12px rgb(72, 255, 0);
+        border-radius: 3% 6%;
+        }
+    50%{
+        box-shadow: 0px 0px 40px 12px rgb(0, 149, 255);
+        border-radius: 12% 2%;
+    }
+    75%{
+        box-shadow: 0px 0px 40px 12px rgb(255, 0, 225);
+        border-radius: 3% 6%;
+        }
+    100%{
+        box-shadow: 0px 0px 40px 12px rgb(255, 0, 0);
+        border-radius: 2% 12%;
+        }
+}
+
+@keyframes colores {
+    0%{
+        background-color: rgb(255, 0, 0);
+    }
+    25%{
+        background-color: rgb(72, 255, 0);
+        }
+    50%{
+        background-color: rgb(0, 149, 255);
+    }
+    75%{
+        background-color: rgb(255, 0, 225);
+        }
+    100%{
+        background-color: rgb(255, 0, 0);
+        }
+    }
